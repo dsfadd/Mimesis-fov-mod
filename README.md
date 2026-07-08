@@ -23,15 +23,8 @@ to the first-person player camera.
    itself — hooking its loader and creating `BepInEx\plugins`,
    `BepInEx\config`, `BepInEx\core` — the first time the game actually runs;
    it can't host a plugin before that.)
-3. Build the project:
-   ```powershell
-   dotnet build src\MimesisFovMod\MimesisFovMod.csproj -c Release -p:GameDir="C:\path\to\MIMESIS"
-   ```
-   This produces `src\MimesisFovMod\bin\Release\MimesisFovMod.dll`.
-   
-   `GameDir` should point to your MIMESIS install. If omitted, it defaults to
-   `C:\Program Files (x86)\Steam\steamapps\common\MIMESIS`.
-   
+3. Download `MimesisFovMod.dll` from the
+   [latest release](https://github.com/dsfadd/Mimesis-fov-mod/releases/latest).
 4. Copy `MimesisFovMod.dll` into `MIMESIS\BepInEx\plugins\`.
 
 ## Configure
