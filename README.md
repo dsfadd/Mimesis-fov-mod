@@ -12,8 +12,6 @@ to the first-person player camera.
 
 ![Demo](docs/media/demo.gif)
 
-<sub>[Download full-quality video](docs/media/demo.mp4)</sub>
-
 ## Installation
 
 ### Manual
