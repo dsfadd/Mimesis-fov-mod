@@ -1,0 +1,26 @@
+# Normalize line endings: store text as LF in the repo, check out native.
+* text=auto
+
+# Source
+*.cs      text diff=csharp
+*.csproj  text
+*.props   text
+*.targets text
+
+# Docs / config
+*.md   text
+*.yml  text
+*.yaml text
+*.json text
+
+# Windows-only scripts stay CRLF on checkout
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binaries
+*.dll binary
+*.pdb binary
+*.exe binary
+*.png binary
+*.mp4 binary

@@ -1,0 +1,30 @@
+# EditorConfig — https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml,json}]
+indent_size = 2
+
+[*.{csproj,props,targets,xml}]
+indent_size = 2
+
+[*.cs]
+# Namespaces / usings
+dotnet_sort_system_directives_first = true
+csharp_using_directive_placement = outside_namespace:suggestion
+
+# Prefer explicit visibility and modern language features
+dotnet_style_qualification_for_field = false:suggestion
+dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
+csharp_prefer_braces = true:suggestion
+csharp_new_line_before_open_brace = all
