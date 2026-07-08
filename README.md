@@ -10,10 +10,9 @@ to the first-person player camera.
 
 ## Demo
 
-<video src="https://raw.githubusercontent.com/dsfadd/Mimesis-fov-mod/main/docs/media/demo.mp4" controls width="720">
-  Your browser does not support inline video —
-  <a href="docs/media/demo.mp4">download the demo</a>.
-</video>
+![Demo](docs/media/demo.gif)
+
+<sub>[Download full-quality video](docs/media/demo.mp4)</sub>
 
 ## Installation
 
